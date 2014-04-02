@@ -1,0 +1,54 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.8em;
+}
+h3 {
+  font-size: 1.6em;
+}
+h4 {
+  font-size: 1.4em;
+}
+h5 {
+  font-size: 1.2em;
+}
+h6 {
+  font-size: 1em;
+}
+.help-sidebar {
+  border-left: 1px solid #000;
+}
+.errors-row {
+  display: none;
+}
+.errors-container p {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+#loading-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10000;
+  background: rgba(50,50,100,0.8) url("../images/loader.gif") no-repeat 50% 50%;
+}
+#run-log {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10001;
+  background: #000;
+  font-family: monospace;
+  color: #fff;
+  font-size: 11px;
+  overflow: hidden;
+  white-space: nowrap;
+}

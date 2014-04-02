@@ -1,0 +1,21 @@
+{
+  "name": "classis",
+  "version": "0.0.0",
+  "description": "Uma nova interface para o Classis",
+  "main": "gui/html/index.html",
+  "scripts": {},
+  "author": "Tarcísio Gruppi <txgruppi@gmail.com> (http://github.com/txgruppi)",
+  "license": "CC BY-NC-SA 3.0 BR",
+  "private": true,
+  "dependencies": {
+    "contra": "^1.5.1",
+    "wd": "^0.2.14"
+  },
+  "window": {
+    "width": 1024,
+    "height": 700,
+    "min_width": 450,
+    "min_height": 300,
+    "toolbar": false
+  }
+}

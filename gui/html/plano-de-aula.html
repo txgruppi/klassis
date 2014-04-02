@@ -1,0 +1,75 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1 data-menu=".plano-de-aula" class="title">Plano de aula</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="alert alert-warning">
+        <p>Por favor confira os dados antes de clicar no botão&nbsp;<strong>Executar</strong></p>
+        <p>A execução pode levar alguns minutos, por favor tenha paciência.</p>
+      </div>
+    </div>
+  </div>
+  <div class="row errors-row">
+    <div class="col-md-12">
+      <div class="alert alert-danger">
+        <p><strong>Por favor, corrija os erros abaixo.</strong></p>
+        <div class="errors-container"></div>
+      </div>
+    </div>
+  </div>
+  <form id="lesson-plan-form" method="post">
+    <div class="row">
+      <div class="col-xs-6 col-sm-6 col-md-6">
+        <div class="form-group">
+          <label for="username">Login</label>
+          <input type="text" name="username" id="username" class="form-control"/>
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-6 col-md-6">
+        <div class="form-group">
+          <label for="password">Senha</label>
+          <input type="password" name="password" id="password" class="form-control"/>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-6 col-sm-4 col-md-4">
+        <div class="form-group">
+          <label for="class">Turma</label>
+          <input type="text" name="class" id="class" class="form-control"/>
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-4 col-md-4">
+        <div class="form-group">
+          <label for="month">Mês</label>
+          <input type="text" name="month" id="month" class="form-control"/>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <div class="form-group">
+          <label for="subject">Matéria</label>
+          <input type="text" name="subject" id="subject" class="form-control"/>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="form-group">
+          <label for="lesson-plan">Conteúdo</label>
+          <textarea name="lesson-plan" id="lesson-plan" rows="7" class="form-control"></textarea>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="btn-group pull-right">
+          <button type="submit" class="btn btn-primary">Executar</button>
+          <button type="reset" class="btn btn-default">Cancelar</button>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
