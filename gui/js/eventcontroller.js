@@ -1,4 +1,5 @@
 var path = require("path"),
+    gui = require("nw.gui"),
     SeleniumServer = require("../../lib/selenium-server"),
     Classis = require("../../lib/classis"),
     utils = require("../../lib/utils"),
@@ -18,6 +19,8 @@ EventController.prototype.register = function() {
     if (href.substr(0, 9) === "template!") {
       App.viewController.show(href.substr(9));
     }
+
+    gui.Shell.openExternal(href);
   });
 
   $doc.on("submit", "#lesson-plan-form", function(e){
