@@ -28,7 +28,7 @@ Mais informações [aqui][cc]
 
 - Melhorar a qualidade do código (o código é o resultado de um desenvolvimento com pressa)
 
-[dl-win]: https://mega.co.nz/#!CUNGRIQB!VwiC4em73pD9eJgnwyGPrXj5nJFmls2UuMYua_x1oOA
-[dl-osx]: https://mega.co.nz/#!bdkgGSIR!S5-KGtBeZ7kl2KrDjOC1A5OJU9IbAwiWPdunQ327Gdc
+[dl-win]: https://mega.co.nz/#!iMVVlBpQ!-lIaxRhu-ymykvr48NUuoZmYY_lIMhRcX811v9h1KUg
+[dl-osx]: https://mega.co.nz/#!aQFRTQwD!E1BxBoUiNmVmWLt-uPz0A1zH5qlY_pFnrASaZe2Dx6c
 [nw-dist]: https://github.com/rogerwang/node-webkit/wiki/How-to-package-and-distribute-your-apps#linux
 [cc]: http://creativecommons.org/licenses/by-nc-sa/3.0/br/
